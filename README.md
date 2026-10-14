@@ -6,7 +6,7 @@ ifetch is a fast and lightweight tool for displaying system information, written
 </p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![GitHub stars](https://img.shields.io/github/stars/Ietsiee/ifetch?style=flat)
+![GitHub stars](https://img.shields.io/github/stars/ietsiee/ifetch?style=flat)
 
 ## Features
 - Fast and minimal
@@ -37,7 +37,7 @@ You can install ifetch using one of the following methods.
 ### Linux
 **Requirements:** `sudo` and `git`
 ```
-git clone https://github.com/Ietsiee/ifetch.git
+git clone https://github.com/ietsiee/ifetch.git
 cd ifetch
 sudo sh build.sh install
 ```
@@ -45,7 +45,7 @@ sudo sh build.sh install
 ### Termux Unstable
 **Requirements:** `tar`, `sed` and `wget`
 ```
-curl -fsSL https://raw.githubusercontent.com/Ietsiee/ifetch/main/installers/install-termux.sh | sh
+curl -fsSL https://raw.githubusercontent.com/ietsiee/ifetch/main/installers/install-termux.sh | sh
 ```
 
 ### AUR
@@ -59,7 +59,7 @@ paru -S ifetch
 ### Make
 **Requirements:** `sudo`, `git` and `make`
 ```
-git clone https://github.com/Ietsiee/ifetch.git
+git clone https://github.com/ietsiee/ifetch.git
 cd ifetch
 sudo make install
 ```
@@ -72,7 +72,7 @@ Found a bug or have an idea for ifetch? Open an issue and let me know!
 
 ## Clone ifetch 
 ```
-git clone https://github.com/Ietsiee/ifetch.git
+git clone https://github.com/ietsiee/ifetch.git
 ```
 
 ## APIs

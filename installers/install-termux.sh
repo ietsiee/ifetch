@@ -11,7 +11,7 @@ rm -rf "$PREFIX/bin/ifetch"
 rm -rf "$PREFIX/usr/bin/ifetch"
 
 echo "[*] Downloading ifetch.tar.gz..."
-wget -q -O ifetch.tar.gz https://github.com/Ietsiee/ifetch/archive/refs/heads/main.tar.gz
+wget -q -O ifetch.tar.gz https://github.com/ietsiee/ifetch/archive/refs/heads/main.tar.gz
 
 echo "[*] Extracting..."
 tar -xzf ifetch.tar.gz
