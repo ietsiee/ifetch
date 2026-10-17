@@ -1,2 +1,6 @@
 #!/bin/sh
-echo "Shell: $(basename "$(readlink /proc/$$/exe)")"
+if [ -n "$1" ]; then
+    echo "Shell: $1"
+else
+    echo "Shell: ${SHELL##*/}"
+fi

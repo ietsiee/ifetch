@@ -39,7 +39,7 @@ Files:
     /etc/ifetch/modules/
         modules like user.sh, logo.sh and more
 
-Configuration: module=<name> <options>
+Configuration: module=<name> <option> <color>
 
 Example: module=ram -g --color green
 
@@ -54,10 +54,12 @@ kernel
     shows the Linux kernel version
 
 logo
-    displays the ASCII logo in /etc/ifetch/logo.txt
+    displays the ASCII logo in /etc/ifetch/logo.txt or in ~/.config/ifetch/logo.txt if it exist
 
 shell
     shows the current used shell
+    module=shell <shell>
+    default shell is $SHELL set by the shell it self
 
 timezone
     shows the timezone of the system
@@ -90,11 +92,11 @@ separator
 
 echo
     prints a custom message
-    module=echo "I Love Linux" --color blue
+    module=echo <message>
 
 command
     run a custom command
-    module=command "cd && cd .."
+    module=command <command>
 
 temperature
     shows the current temperature of the system
@@ -102,10 +104,12 @@ temperature
 weather
     shows the current weather of a city in °C
     module=weather <city>
+    default city is Amsterdam
 
 crypto
     shows the price of a cryptocoin in $
     module=crypto <cryptocoin>
+    default cryptocoin is BTC
 
 process
     shows the total number of processes currently running

@@ -1,12 +1,12 @@
 pkgbase = ifetch
-	pkgdesc = Ifetch is a simple tool that prints out system information
+	pkgdesc = ifetch is a fast and lightweight tool for displaying system information
 	pkgver = 1.0.6
 	pkgrel = 1
-	url = https://github.com/Ietsiee/ifetch
+	url = https://github.com/ietsiee/ifetch
 	arch = any
 	license = MIT
 	depends = curl
-	source = https://github.com/Ietsiee/ifetch/archive/refs/tags/v1.0.6.tar.gz
+	source = https://github.com/ietsiee/ifetch/archive/refs/tags/v1.0.6.tar.gz
 	sha256sums = SKIP
 
 pkgname = ifetch
