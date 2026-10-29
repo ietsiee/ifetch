@@ -5,7 +5,7 @@ case "$1" in
         cat /etc/ifetch/help.txt
         ;;
     -v|--version)
-        echo "ifetch: 1.0.6"
+        echo "ifetch: 1.0.7"
         ;;
     -p|--presets)
         echo "Total presets $(find /etc/ifetch/presets -type f | wc -l) in /etc/ifetch/presets"

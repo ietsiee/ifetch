@@ -1,5 +1,5 @@
 pkgname=ifetch
-pkgver=1.0.6
+pkgver=1.0.7
 pkgrel=1
 pkgdesc="ifetch is a fast and lightweight tool for displaying system information"
 arch=('any')

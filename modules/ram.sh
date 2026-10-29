@@ -12,4 +12,4 @@ case "$1" in
         ;;
 esac
 
-echo "RAM: ${used}${unit} / ${total}${unit}"\
+echo "RAM: ${used}${unit} / ${total}${unit}"

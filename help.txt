@@ -123,4 +123,7 @@ tty
 dns
     shows the dns of the system
 
+init
+    prints the process name of the init system in use	
+
 Colors: black red green yellow blue mangenta cyan white
